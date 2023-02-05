@@ -1,0 +1,9 @@
+services:
+  category_ms:
+    image: category_ms
+    ports:
+      - "8082:8082"
+    volumes:
+      - category_vol:/data
+volumes:
+  category_vol:
